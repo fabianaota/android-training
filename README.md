@@ -1,2 +1,3 @@
-# android-training
-Android Training from redspark.io
+## Android training
+
+#### Android Training from redspark.io
