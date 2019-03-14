@@ -1,3 +1,3 @@
 ## Android Training
 
-#### Android course by redspark
+#### Android course by redspark.io
