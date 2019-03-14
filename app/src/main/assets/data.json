@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Mioglobina",
+    "date": "2019-03-01",
+    "type": 1,
+    "hour": "13:40",
+    "results": [
+      {
+        "name": "Mioglobina",
+        "value": "14.3",
+        "status": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hemograma com plaquetas",
+    "date": "2019-03-03",
+    "type": 2,
+    "hour": "12:30",
+    "results": [
+      {
+        "name": "Eritrócitos",
+        "value": "4.05",
+        "status": 1
+      },
+      {
+        "name": "Hemoglobina",
+        "value": "11.4",
+        "status": 1
+      },
+      {
+        "name": "Hematócrito",
+        "value": "35.5",
+        "status": 1
+      },
+      {
+        "name": "VCM",
+        "value": "87.7",
+        "status": 3
+      },
+      {
+        "name": "HCM",
+        "value": "28.1",
+        "status": 3
+      },
+      {
+        "name": "CHCM",
+        "value": "14.6",
+        "status": 2
+      },
+      {
+        "name": "RDW",
+        "value": "14.6",
+        "status": 3
+      },
+      {
+        "name": "Leucócitos",
+        "value": "8.81",
+        "status": 1
+      },
+      {
+        "name": "Neutrófilos",
+        "value": "78.3",
+        "status": 1
+      },
+      {
+        "name": "Eusinófilos",
+        "value": "2",
+        "status": 1
+      },
+      {
+        "name": "Basófilos",
+        "value": "1",
+        "status": 1
+      },
+      {
+        "name": "Linfócitos",
+        "value": "14.1",
+        "status": 1
+      },
+      {
+        "name": "Monócitos",
+        "value": "7.3",
+        "status": 1
+      },
+      {
+        "name": "Plaquetas",
+        "value": "7.3",
+        "status": 2
+      },
+      {
+        "name": "VMP",
+        "value": "7.3",
+        "status": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Troponina I",
+    "date": "2019-03-05",
+    "type": 1,
+    "hour": "14:50",
+    "results": [
+      {
+        "name": "Troponina",
+        "value": "14.3",
+        "status": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Creatinina",
+    "date": "2019-03-05",
+    "type": 1,
+    "hour": "15:10",
+    "results": [
+      {
+        "name": "Creatinina",
+        "value": "0.35",
+        "status": 2
+      },
+      {
+        "name": "Cálculo etnias não-afrodescendentes",
+        "value": "60",
+        "status": 1
+      },
+      {
+        "name": "Cálculo etnias não-afrodescendentes",
+        "value": "60",
+        "status": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Hemograma com plaquetas",
+    "date": "2019-03-10",
+    "type": 2,
+    "hour": "10:20",
+    "results": [
+      {
+        "name": "Eritrócitos",
+        "value": "7.3",
+        "status": 2
+      },
+      {
+        "name": "Hemoglobina",
+        "value": "7.3",
+        "status": 2
+      },
+      {
+        "name": "Hematócrito",
+        "value": "14.1",
+        "status": 2
+      },
+      {
+        "name": "VCM",
+        "value": "1.0",
+        "status": 1
+      },
+      {
+        "name": "HCM",
+        "value": "2.0",
+        "status": 1
+      },
+      {
+        "name": "CHCM",
+        "value": "78.3",
+        "status": 1
+      },
+      {
+        "name": "RDW",
+        "value": "8.81",
+        "status": 1
+      },
+      {
+        "name": "Leucócitos",
+        "value": "14.6",
+        "status": 3
+      },
+      {
+        "name": "Neutrófilos",
+        "value": "14.6",
+        "status": 2
+      },
+      {
+        "name": "Eusinófilos",
+        "value": "7.3",
+        "status": 2
+      },
+      {
+        "name": "Basófilos",
+        "value": "28.1",
+        "status": 2
+      },
+      {
+        "name": "Linfócitos",
+        "value": "87.7",
+        "status": 3
+      },
+      {
+        "name": "Monócitos",
+        "value": "35.5",
+        "status": 3
+      },
+      {
+        "name": "Plaquetas",
+        "value": "11.4",
+        "status": 1
+      },
+      {
+        "name": "VMP",
+        "value": "4.05",
+        "status": 2
+      }
+    ]
+  }
+]

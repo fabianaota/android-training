@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#005A9C</color>
+    <color name="colorPrimaryDark">#005A9C</color>
+    <color name="colorAccent">#707070</color>
+
+    <!-- Cell ExamResult -->
+    <color name="resultBackground">#C1C1C1</color>
+    <color name="resultNameAndValue">#707070</color>
+
+    <!-- Cell ExamType -->
+    <color name="examResultHour">#019D01</color>
+    <color name="examName">#005A9C</color>
+
+    <!-- Cell Date -->
+    <color name="dateBackground">#005A9C</color>
+    <color name="dateText">#FFFFFF</color>
+
+</resources>

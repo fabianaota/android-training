@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Reds Test</string>
+
+    <!-- Cell ExamResult -->
+    <string name="resultName">Result Name</string>
+    <string name="resultValue">Result Value</string>
+
+    <!-- Cell ExamType -->
+    <string name="examName">Exam Name</string>
+    <string name="examResultHour">Liberado às %</string>
+    <string name="timeFormatted">HH:mm</string>
+
+    <!-- Cell Date -->
+    <string name="examDate">Exam Date</string>
+
+</resources>
