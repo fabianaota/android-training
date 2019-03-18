@@ -1,13 +1,15 @@
 package io.redspark.redstest.modules.exam.contracts;
 
-import io.redspark.redstest.models.Exam
-import io.redspark.redstest.modules.exam.adapters.ExamParentAdapter
+import io.redspark.redstest.models.ExamNode
+import io.redspark.redstest.modules.exam.adapters.ExamAdapter
+import io.redspark.redstest.network.response.ExamResponse
 import java.util.*
+import kotlin.collections.ArrayList
 
 interface ExamContracts {
 
     interface View {
-        fun setupRecyclerView(examAdapter: ExamParentAdapter)
+        fun setupRecyclerView(examAdapter: ExamAdapter)
     }
 
     interface Presenter {
@@ -17,11 +19,11 @@ interface ExamContracts {
     interface Router
 
     interface Interactor {
-        fun getGroupedExamList(): Map<Date, List<Exam>>
+        fun getRemoteExamList(): ArrayList<ExamNode>
     }
 
     interface RemoteDataManager {
-        fun getMockedExamList(): ArrayList<Exam>
+        fun getMockedExamList(): ArrayList<ExamNode>
     }
 
 }

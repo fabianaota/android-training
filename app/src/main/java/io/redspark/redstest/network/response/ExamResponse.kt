@@ -1,29 +1,29 @@
-package io.redspark.redstest.network
+package io.redspark.redstest.network.response
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.redspark.redstest.models.Result
 import java.util.*
+import kotlin.collections.ArrayList
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 class ExamResponse {
 
     @JsonProperty("id")
-    var id = 0
+    var examId: String = String()
 
     @JsonProperty("name")
-    var name = String()
+    var examName: String = String()
 
     @JsonProperty("date")
-    var date = Date()
+    var examDate: String = String()
 
     @JsonProperty("type")
-    var type = 0
+    var examType: Int = 0
 
     @JsonProperty("hour")
-    var hour = Date()
+    var examHour: String = String()
 
     @JsonProperty("results")
-    var results = ArrayList<ResultResponse>()
+    var examResults: List<ResultResponse> = ArrayList()
 
 }

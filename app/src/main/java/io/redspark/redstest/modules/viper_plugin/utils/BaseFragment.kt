@@ -1,13 +1,14 @@
 package io.redspark.redstest.modules.viper_plugin.utils;
 
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
+import android.content.Context
 import android.os.Bundle
-import androidx.annotation.LayoutRes
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.LayoutRes
+import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
+import androidx.fragment.app.Fragment
 import io.redspark.redstest.modules.viper_plugin.errors.ViperModuleAssemblerException
 import io.redspark.redstest.modules.viper_plugin.interfaces.ModuleAssembler
 
@@ -31,7 +32,7 @@ abstract class BaseFragment<T, U : ViewDataBinding>(
         moduleAssembler.assembleModule(this)
 
         val binding: U = DataBindingUtil.inflate(inflater, layoutId, container, false)
-        binding.setLifecycleOwner(this)
+        binding.lifecycleOwner = this
         bind(binding)
         return binding.root
     }

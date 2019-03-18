@@ -1,4 +1,4 @@
-package io.redspark.redstest.network
+package io.redspark.redstest.network.response
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
@@ -7,12 +7,12 @@ import com.fasterxml.jackson.annotation.JsonProperty
 class ResultResponse {
 
     @JsonProperty("name")
-    var name = String()
+    var resultName: String = String()
 
     @JsonProperty("value")
-    var value = String()
+    var resultValue: String = String()
 
     @JsonProperty("status")
-    var status = 0
+    var resultStatus: Int = 0
 
 }

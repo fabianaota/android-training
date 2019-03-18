@@ -1,13 +1,12 @@
-package io.redspark.redstest
+package io.redspark.redstest.network
 
 import android.content.Context
 import java.io.IOException
 
 object MockUtils {
 
-    // TODO: - Remover esta classe e todos os arquivos JSON adicionados para fins de teste
-    fun loadJSONFromAsset(context: Context?, fileName: String): String? {
-        val json: String?
+    fun loadJSONFromAsset(context: Context?, fileName: String): String {
+        val json: String
         try {
             val input = context?.assets?.open(fileName)
             val size = input?.available() ?: 0
@@ -17,9 +16,9 @@ object MockUtils {
             json = String(buffer)
         } catch (ex: IOException) {
             ex.printStackTrace()
-            return null
+            return String()
         }
-
         return json
     }
+
 }
