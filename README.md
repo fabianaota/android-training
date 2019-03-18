@@ -1,4 +1,3 @@
 ## Android Training
 
-#### Android course by redspark
-#### testing kraken
+#### Android course by redspark.io
